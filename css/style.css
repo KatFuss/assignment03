@@ -1,3 +1,6 @@
+/* upgraded from Team Seattle 
+http://csc174.org/assignment02/team-seattle/index.php */
+
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa|Mansalva|Merienda|Roboto+Mono|Vibes&display=swap');
 
 body {
@@ -31,6 +34,7 @@ h1 {
 .menu {
 	border-radius: 60%;
 	padding-left: 15px;
+	padding-right: 15px;
 	/*background-color: #ffcba4;*/
 }
 
@@ -54,7 +58,7 @@ a:hover {
 	color: grey;
 }
 a:hover img {
-	opacity: 0.7;
+	opacity: 0.3;
 }
 
 ul {
@@ -94,13 +98,11 @@ ul {
 div.area {
 	text-align: center;
 	padding: 20px 20px;
-}
+}*/
 
-div.vanessa, div.alyssa, div.kat {
-	width: 80%;
+/*div.home, div.alyssa, div.kat {
+	/*width: 80%;
 	height: 80%;
-	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
 	margin-bottom: 30px;
 }*/
 
