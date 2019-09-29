@@ -21,11 +21,11 @@ h1 {
 
 /*how to center title to the picture*/
 .center {
-  display: block;
-  margin-left: 10%;
-  margin-right: 15%;
-  width: 50%;
-  text-align: center;
+	display: block;
+  	margin-left: 10%;
+  	margin-right: 15%;
+  	width: 50%;
+ 	text-align: center;
 }
 
 .menu {
@@ -34,7 +34,7 @@ h1 {
 	/*background-color: #ffcba4;*/
 }
 
-.teamtitle {text-align: left;}
+/*.teamtitle {text-align: left;}*/
 
 h2 {
 	font-family: 'Mansalva', cursive;
@@ -51,7 +51,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: blue;
+	color: grey;
 }
 a:hover img {
 	opacity: 0.7;
@@ -65,7 +65,7 @@ ul {
 	margin-left: 50px;
 }
 
-.header {
+/*.header {
 	display: flex;
 	align-items: center;
 	width: 100%
@@ -73,7 +73,7 @@ ul {
 .header img {
 	margin: 10px 10px 0px 0px;
 	float: none;
-}
+}*/
 
 /*.container {
 	margin: 0 auto;
@@ -84,7 +84,7 @@ ul {
 	align-items: center;
 }*/
 
-.area {
+/*.area {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
@@ -102,7 +102,7 @@ div.vanessa, div.alyssa, div.kat {
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
 	margin-bottom: 30px;
-}
+}*/
 
 /**** BASE - NAV ****/
 nav {
@@ -133,7 +133,7 @@ nav li {
 	}
 	nav li { margin-left: 0; }
 }
-.homenav {
+/*.homenav {
 	text-align: center;
 }
 .homenav ul {
@@ -153,7 +153,7 @@ nav li {
 .homenav li {
 	margin-left: -60px;
 	margin-bottom: 10px;
-}
+}*/
 
 /**** BASE - ASIDE ****/
 aside {
@@ -168,17 +168,13 @@ aside ul {
 	font-size: 20px;
 }
 
-/*.container {
-	margin: 25px auto;
-	width: 90%;
-	max-width: 960px;
-
-	display: grid;
-	grid-template-columns: 260px 1fr 200px;
+.aside_a {
+	margin-left: -260px;
 }
-@media ( max-width: 375px ) {
-	.container { display: block; }
-}*/
+
+.aside_d {
+	margin-left: -420px;
+}
 
 /**** LAYOUT ****/
 .container {
@@ -207,6 +203,7 @@ footer {
 	grid-column: 1 / 2;
 }
 
+/**** BORDER ****/
 #top, #bottom, #left, #right {
 	background: #a5ebff;
 	position: fixed;
@@ -227,6 +224,6 @@ footer {
 
 /**** STATE ****/
 .is-current {
-	background-color: black;
+	background-color: grey;
 	color: white;
 } 
