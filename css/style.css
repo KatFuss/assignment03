@@ -28,13 +28,13 @@ h1 {
 .menu {
 	border-radius: 60%;
 	padding-left: 15px;
-	background-color: #ffcba4;
+	/*background-color: #ffcba4;*/
 }
 
 .teamtitle {text-align: left;}
 
 h2 {
-	font-family: 'Vibes', cursive;
+	font-family: 'Mansalva', cursive;
 	letter-spacing: 0.1em;
 	color: pink;
 	text-align: left;
@@ -71,14 +71,14 @@ ul {
 	float: none;
 }
 
-.container1 {
+/*.container {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 960px;
 
 	display: grid;
 	align-items: center;
-}
+}*/
 
 .area {
 	display: grid;
@@ -101,6 +101,10 @@ div.vanessa, div.alyssa, div.kat {
 }
 
 /**** BASE - NAV ****/
+nav {
+	margin-right: 50%;
+	margin-left: 70%;
+}
 
 nav ul {
 	text-indent: 0;
@@ -110,11 +114,13 @@ nav ul {
 }
 
 nav li {
-	font-family: 'Lacquer', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: x-large;
-	background-color: white;
+	color: white;
 	padding: 10px 5px 10px 5px;
 	margin-right: 20px;
+	border-radius: 50%;
+	background-color: #ffcba4;
 }
 
 @media ( max-width: 375px ) {
@@ -153,7 +159,11 @@ aside {
 	font-style: italic;
 }
 
-.container {
+aside ul {
+	font-size: 20px;
+}
+
+/*.container {
 	margin: 25px auto;
 	width: 90%;
 	max-width: 960px;
@@ -163,11 +173,7 @@ aside {
 }
 @media ( max-width: 375px ) {
 	.container { display: block; }
-}
-
-aside ul {
-	font-size: 20px;
-}
+}*/
 
 /**** LAYOUT ****/
 .container {
@@ -181,6 +187,7 @@ aside ul {
 	.container {display: block;}
 
 }
+
 footer {
 	font-family: 'Lacquer', sans-serif;
 	font-size: 20px;
