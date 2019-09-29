@@ -22,7 +22,6 @@ h1 {
 
 }
 
-/*how to center title to the picture*/
 .center {
 	display: block;
   	margin-left: 10%;
@@ -35,10 +34,16 @@ h1 {
 	border-radius: 60%;
 	padding-left: 15px;
 	padding-right: 15px;
-	/*background-color: #ffcba4;*/
 }
 
-/*.teamtitle {text-align: left;}*/
+/**** ON HOVER NAV ****/
+#wrapper .text {
+	visibility: hidden;
+}
+
+#wrapper:hover .text {
+	visibility: visible;
+}
 
 h2 {
 	font-family: 'Mansalva', cursive;
@@ -69,47 +74,10 @@ ul {
 	margin-left: 50px;
 }
 
-/*.header {
-	display: flex;
-	align-items: center;
-	width: 100%
-}
-.header img {
-	margin: 10px 10px 0px 0px;
-	float: none;
-}*/
-
-/*.container {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 960px;
-
-	display: grid;
-	align-items: center;
-}*/
-
-/*.area {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-gap: 10px;
-	padding: 0px;
-}
-
-div.area {
-	text-align: center;
-	padding: 20px 20px;
-}*/
-
-/*div.home, div.alyssa, div.kat {
-	/*width: 80%;
-	height: 80%;
-	margin-bottom: 30px;
-}*/
-
 /**** BASE - NAV ****/
 nav {
 	margin-right: 50%;
-	margin-left: 70%;
+	margin-left: 60%;
 }
 
 nav ul {
@@ -135,27 +103,6 @@ nav li {
 	}
 	nav li { margin-left: 0; }
 }
-/*.homenav {
-	text-align: center;
-}
-.homenav ul {
-	margin-left: 35px;
-	margin-top: 3px;
-	border: 1px;
-	display: block;
-}
-.homenav li {
-	font-family: 'Lacquer', sans-serif;
-	font-size: 22px;
-	background-color: white;
-	border: 1px solid;
-	box-shadow: 3px 3px grey;
-	padding: 8px 8px 8px 8px;
-}
-.homenav li {
-	margin-left: -60px;
-	margin-bottom: 10px;
-}*/
 
 /**** BASE - ASIDE ****/
 aside {
