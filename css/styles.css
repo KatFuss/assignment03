@@ -37,11 +37,11 @@ h1 {
 }
 
 /**** ON HOVER NAV ****/
-#wrapper .text {
+.wrapper .text {
 	visibility: hidden;
 }
 
-#wrapper:hover .text {
+.wrapper:hover .text {
 	visibility: visible;
 }
 
