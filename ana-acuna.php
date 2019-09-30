@@ -31,7 +31,7 @@
 
 	</div>
 
-	<?php include "inc/shared-nav.inc"; ?>
+	<?php include "inc/nav.inc"; ?>
 
 	<main>
 		<h2>Introduction</h2>
