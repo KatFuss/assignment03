@@ -172,6 +172,7 @@ footer {
 
 /**** STATE ****/
 .is-current {
-	background-color: grey;
-	color: white;
+	border-radius: 50%;
+	background-color: #FFE5B4;
+	color: hotpink;
 } 
